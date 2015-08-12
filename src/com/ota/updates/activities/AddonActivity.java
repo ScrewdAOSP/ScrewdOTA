@@ -282,10 +282,12 @@ public class AddonActivity extends Activity implements Constants {
 			DateFormat fromDate = new SimpleDateFormat("yyyy-MM-dd", locale);
 			DateFormat toDate = new SimpleDateFormat("dd, MMMM yyyy", locale);
 
-			try {
-				date = toDate.format(fromDate.parse(date));
-			} catch (ParseException e) {
-				e.printStackTrace();
+			if (date != null) {
+                            try {
+                                date = toDate.format(fromDate.parse(date));
+                            } catch (ParseException e) {
+                                e.printStackTrace();
+                            }
 			}
 
 			updatedOn.setText(UpdatedOnStr + " " + date);
