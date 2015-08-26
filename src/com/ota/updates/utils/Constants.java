@@ -24,7 +24,7 @@ public interface Constants {
 	public static final boolean DEBUG_NOTIFICATIONS 					= false;
 	
 	// Props
-	public static final String OTA_ROMNAME 								= "ro.ota.romname";
+	public static final String OTA_ROMNAME 								= "ro.ota.screwd";
 	public static final String OTA_VERSION 								= "ro.ota.version";
 	public static final String OTA_MANIFEST 							= "ro.ota.manifest";
 	public static final String OTA_DOWNLOAD_LOC							= "ro.ota.download_loc";
@@ -32,7 +32,7 @@ public interface Constants {
 	
 	// Storage
 	public static final String SD_CARD 									= Environment.getExternalStorageDirectory().getAbsolutePath();
-	public static final String OTA_DOWNLOAD_DIR 						= Utils.doesPropExist(OTA_DOWNLOAD_LOC) ? Utils.getProp(OTA_DOWNLOAD_LOC) : "OTAUpdates";
+	public static final String OTA_DOWNLOAD_DIR 						= Utils.doesPropExist(OTA_DOWNLOAD_LOC) ? Utils.getProp(OTA_DOWNLOAD_LOC) : "ScrewdOTA";
 	public static final String INSTALL_AFTER_FLASH_DIR 					= "InstallAfterFlash";
 
 	// Networks

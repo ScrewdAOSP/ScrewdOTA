@@ -10,12 +10,12 @@ public class OtaUpdates extends Application {
 	private static ArrayMap<Integer, Long> mAddonsDownloads = new ArrayMap<Integer, Long>();
 	
 	public static void putAddonDownload(int key, long value) {
-		Log.d("OtaUpdates", "Putting Addon with Key: " + key + " and Value: " + value);
+		Log.d("ScrewdOTA", "Putting Addon with Key: " + key + " and Value: " + value);
 		mAddonsDownloads.put(key, value);
 	}
 	
 	public static long getAddonDownload(int key) {
-		Log.d("OtaUpdates", "Getting Addon with Key: " + key);
+		Log.d("ScrewdOTA", "Getting Addon with Key: " + key);
 		return (Long) mAddonsDownloads.get(key);
 	}
 	

@@ -33,17 +33,17 @@
     <string name="main_addon_summary">Browse and download additional files for this ROM</string>
 
     <!-- ROM Information -->
-    <string name="main_rom_information">ROM information</string>
-    <string name="main_rom_name">ROM name:</string>
-    <string name="main_rom_version">ROM version:</string>
+    <string name="main_rom_information">Screw\'d information</string>
+    <string name="main_rom_name">Build name:</string>
+    <string name="main_rom_version">Build version:</string>
     <string name="main_rom_codename">ROM codename:</string>
-    <string name="main_rom_build_date">ROM date:</string>
+    <string name="main_rom_build_date">Build date:</string>
     <string name="main_android_verison">Android version:</string>
     <string name="main_rom_developer">Developer(s):</string>
 
     <!-- Dialogs -->
-    <string name="main_not_compatible_title">Not compatible</string>
-    <string name="main_not_compatible_message">This ROM is not compatible with OTA Updates. Please contact your ROM developer. This app requires a custom ROM where the developer has specifically enabled support. Do not rate 1 star because of this. This is not a fault.</string>
+    <string name="main_not_compatible_title">Aww sh*t...</string>
+    <string name="main_not_compatible_message">This build you\'re using doesn\'t have the required lines for ScrewdOTA. Please report this in the XDA thread or Google+ community.</string>
     <string name="main_not_connected_title">Not connected</string>
     <string name="main_not_connected_message">You are not connected to any network. Please enable your network or WiFi and try again.</string>
     <string name="main_playstore_title">BitCoin</string>
