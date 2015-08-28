@@ -127,8 +127,6 @@
         android:key="settings_about"
         android:title="@string/app_name" />
     
-    <Preference android:key="about_pro" />
-    
     <Preference 
         android:key="about_activity_pref"
         android:title="@string/about_about_title"

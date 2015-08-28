@@ -16,4 +16,4 @@
 -->
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ic_check"
-    android:tint="?attr/materialAccent" />
+    android:tint="@*android:color/material_deep_teal_500" />

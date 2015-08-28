@@ -115,11 +115,13 @@ public class MainActivity extends Activity implements Constants{
 			actionBar.setDisplayShowCustomEnabled(true);
 		}
 		
+		/*
 		boolean firstRun = Preferences.getFirstRun(mContext);				
 		if(firstRun) {
 			Preferences.setFirstRun(mContext, false);
 			showWhatsNew();
 		}
+		*/
 		
 		String oldChangelog = Preferences.getOldChangelog(mContext);
 		String currentChangelog = getResources().getString(R.string.app_version);
