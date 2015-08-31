@@ -58,6 +58,9 @@ import com.ota.updates.utils.Constants;
 import com.ota.updates.utils.Preferences;
 import com.ota.updates.utils.Utils;
 
+import java.io.IOException;
+import java.lang.Process;
+
 public class MainActivity extends Activity implements Constants{
 
 	public final String TAG = this.getClass().getSimpleName();
@@ -128,6 +131,14 @@ public class MainActivity extends Activity implements Constants{
 		if(!oldChangelog.equals(currentChangelog)) {
 			showWhatsNew();
 		}
+		
+		//Ask for SU, we'll need it later!!
+		try {
+		  Process p = Runtime.getRuntime().exec("su");
+		} catch (IOException e) {
+		  Log.d(TAG, e.getMessage());	
+		}
+		
 		
 		// Create download directories if needed
 		File installAfterFlashDir = new File(SD_CARD 
